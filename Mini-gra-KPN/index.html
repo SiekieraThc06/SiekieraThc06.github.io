@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gra</title>
+</head>
+<body>
+    <link rel="stylesheet" href="style.css">
+        <h1>Kamień-Papier-Nożyce</h1>
+        <div class="gra">
+            <div class="android">
+                <img src="Android.png">
+            </div>
+
+        <div class="wynik" id="wynik">wynik:</div>
+        <div class="zmiena">
+            
+            <p>wygrana: <span id="Wzmiena">0</span></p>
+            <p>Przegrana: <span id="Pzmiena">0</span></p>
+            <p>Remis: <span id="Rzmiena">0</span></p>
+        </div>
+
+
+        <div class="wybory"></div>
+        <img src="paper.png" onclick="playgame('Papier')">
+        <img src="kamien.png" onclick="playgame('Kamien')">
+        <img src="nożyczki.png" onclick="playgame('Nożyce')">
+        
+    <script src="script.js"></script>
+</body>
+</html>
